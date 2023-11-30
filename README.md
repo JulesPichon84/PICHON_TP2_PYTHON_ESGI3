@@ -17,7 +17,7 @@
      |___main.py
      |___interface.py
      |___Images/
-     |___Sound/
+     |___Sounds/
      |
      |
      |___exo/
