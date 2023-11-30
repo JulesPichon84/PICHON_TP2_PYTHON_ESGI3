@@ -29,7 +29,7 @@
           |___exo5.py
      
 
-## Lors de votre arrivée dans la racine du projet, vous trouverez plusieurs fichiers:
+## Lors de votre arrivée dans la racine du projet, vous trouverez plusieurs fichiers et dossiers:
   1- Le fichier *main.py* représente le point d'entrée du programme, c'est par lui que tout commence.<br>
   2- Le fichier *interface.py* définit l'interface utilisateur du programme à l'aide du module Tkinter et permet d'appeler les différents exercices du TP.<br>
   3- Les dossiers *Images* et *Sound* contiennent toutes les images et les sons pour l'interface utilisateur.<br>
