@@ -40,7 +40,7 @@ Si vous souhaitez avoir un exécutable sous **Windows**, il vous suffit d'exécu
   pyinstaller --onefile main.py
   ```
 
-Si vous souhaitez avoir un exécutable sous **Linux**, il vous suffit d'exécuter le code suivant:
+Si vous souhaitez avoir un exécutable sous **`#ED1C24`Linux**, il vous suffit d'exécuter le code suivant:
   ```shell
   pip install cx_Freeze
   ```
@@ -64,11 +64,14 @@ Volume horaire concernant le TP2:
 
 | Tâches  | Heures |
 | ------------- | ------------- |
-| Développement des Scripts Python  | 10 |
+| Développement des Scripts Python  | 8 |
 | Développement du GUI  | 4 |
 | Liaison du GUI aux Scripts | 2 |
 | Rédaction documentation| 2 |
-| Total | 18 |
+| Total | 16 |
+
+Reste à faire:
+
 
 
 > [!TIP]
