@@ -8,6 +8,7 @@ WORKDIR /src
 
 RUN apk --no-cache add gcc musl-dev && \
     pip install --upgrade pip && \
-    pip install --no-cache-dir -r requirements.txt
+    pip install --no-cache-dir -r requirements.txt && \
+    apk del gcc musl-dev
 
 CMD [ "python", "main.py"]
