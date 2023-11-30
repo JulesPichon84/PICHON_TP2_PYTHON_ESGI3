@@ -16,7 +16,6 @@
      |___README.md
      |___main.py
      |___interface.py
-     |
      |___Images/
      |___Sound/
      |
