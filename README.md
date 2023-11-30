@@ -71,14 +71,14 @@ Volume horaire concernant le TP2:
 | Total | 16 |
 
 Ce qui a été fait:
-[x] Les 5 scripts pour les 5 exercices.
-[x] Développement UI 
-[x] Création des graphiques avec tracés de courbes.
-[x] Création d'une documentation pour l'utilisateur.
+- [x] Les 5 scripts pour les 5 exercices.
+- [x] Développement UI 
+- [x] Création des graphiques avec tracés de courbes.
+- [x] Création d'une documentation pour l'utilisateur.
 
 Reste à faire:
-[] Création d'un Dokerfile en cours mais problème au moment d'exécuté le conteneur. Non prise en charge de tkinter de façon native.
-[] Bonus: Ajouter une étape de sécurité avant de lancer le programme.
+- [ ] Création d'un Dokerfile en cours mais problème au moment d'exécuté le conteneur. Non prise en charge de tkinter de façon native.
+- [ ] Bonus: Ajouter une étape de sécurité avant de lancer le programme.
 
 > [!TIP]
 > Si vous souhaitez personnalisez vous mêmes les courbes, voici deux liens menant vers la documentation des modules *seaborn* et *matplotlib*:
