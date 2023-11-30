@@ -16,8 +16,6 @@
      |___README.md
      |___main.py
      |___interface.py
-     |___Dockerfile
-     |___requirements.txt
      |
      |___Images/
      |___Sound/
