@@ -16,11 +16,8 @@
      |___README.md
      |___main.py
      |___interface.py
-     |___Dockerfile
-     |___requirements.txt
-     |
      |___Images/
-     |___Sound/
+     |___Sounds/
      |
      |
      |___exo/
@@ -67,12 +64,21 @@ Volume horaire concernant le TP2:
 
 | Tâches  | Heures |
 | ------------- | ------------- |
-| Développement des Scripts Python  | 10 |
+| Développement des Scripts Python  | 8 |
 | Développement du GUI  | 4 |
 | Liaison du GUI aux Scripts | 2 |
 | Rédaction documentation| 2 |
-| Total | 18 |
+| Total | 16 |
 
+Ce qui a été fait:
+- [X] Les 5 scripts pour les 5 exercices.
+- [X] Développement UI 
+- [X] Création des graphiques avec tracés de courbes.
+- [X] Création d'une documentation pour l'utilisateur.
+
+Reste à faire:
+- [ ] Création d'un Dokerfile en cours mais problème au moment d'exécuté le conteneur. Non prise en charge de tkinter de façon native.
+- [ ] Bonus: Ajouter une étape de sécurité avant de lancer le programme.
 
 > [!TIP]
 > Si vous souhaitez personnalisez vous mêmes les courbes, voici deux liens menant vers la documentation des modules *seaborn* et *matplotlib*:
