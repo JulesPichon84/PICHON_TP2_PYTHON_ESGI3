@@ -18,7 +18,7 @@
      |___interface.py
      |___Images/
      |___Sounds/
-     |
+     |___requirements.txt
      |
      |___exo/
           |
@@ -32,8 +32,9 @@
 ## Lors de votre arrivée dans la racine du projet, vous trouverez plusieurs fichiers et dossiers:
   1- Le fichier *main.py* représente le point d'entrée du programme, c'est par lui que tout commence.<br>
   2- Le fichier *interface.py* définit l'interface utilisateur du programme à l'aide du module Tkinter et permet d'appeler les différents exercices du TP.<br>
-  3- Les dossiers *Images* et *Sound* contiennent toutes les images et les sons pour l'interface utilisateur.<br>
-  4- Enfin, le dossier *exo* contient tous les exercices du TP.
+  3- Le fichier *requirements.txt* contient la liste des modules nécessaires pour le bon fonctionnement du programme.<br>
+  4- Les dossiers *Images* et *Sound* contiennent toutes les images et les sons pour l'interface utilisateur.<br>
+  5- Enfin, le dossier *exo* contient tous les exercices du TP.
 
 Si vous souhaitez avoir un exécutable sous **Windows**, il vous suffit d'exécuter le code suivant:
   ```shell
