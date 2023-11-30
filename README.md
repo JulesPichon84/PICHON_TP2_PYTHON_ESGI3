@@ -33,11 +33,11 @@
      
 
 ## Lors de votre arrivée dans le menu, vous trouverez plusieurs fichiers:
-  1- Le fichier *main.py* représente le point d'entrée du programme, c'est par lui que tout commence.
-  2- Le fichier *interface.py* définit l'interface utilisateur du programme à l'aide du module Tkinter et permet d'appeler les différents exercices du TP.
-  3- Le fichier *Dockerfile* est comme son nom l'indique un Dockerfile permettant de build une image Docker puis de l'exécuter dans un conteneur. Ce fichier n'est pas obligatoire mais permet de faire tourner le programme si l'utilisateur ne veut pas installer des modules ou autre.
-  4- Le fichier *requirements* contient tous les modules nécessaires que l'utilisateur doit installer s'il veut faire tourner le programme.
-  5- Les dossiers *Images* et *Sound* contiennent toutes les images et les sons pour l'interface utilisateur.
+  1- Le fichier *main.py* représente le point d'entrée du programme, c'est par lui que tout commence.<br>
+  2- Le fichier *interface.py* définit l'interface utilisateur du programme à l'aide du module Tkinter et permet d'appeler les différents exercices du TP.<br>
+  3- Le fichier *Dockerfile* est comme son nom l'indique un Dockerfile permettant de build une image Docker puis de l'exécuter dans un conteneur. Ce fichier n'est pas obligatoire mais permet de faire tourner le programme si l'utilisateur ne veut pas installer des modules ou autre.<br>
+  4- Le fichier *requirements* contient tous les modules nécessaires que l'utilisateur doit installer s'il veut faire tourner le programme.<br>
+  5- Les dossiers *Images* et *Sound* contiennent toutes les images et les sons pour l'interface utilisateur.<br>
   6- Enfin, le dossier *exo* contient tous les exercices du TP.
 
 Si vous souhaitez avoir un exécutable sous **Windows**, il vous suffit d'exécuter le code suivant:
