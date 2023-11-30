@@ -6,9 +6,9 @@ COPY requirements.txt /src/requirements.txt
 
 WORKDIR /src
 
-RUN apk --no-cache add gcc musl-dev && \
+RUN apk --no-cache add build-base && \
     pip install --upgrade pip && \
     pip install --no-cache-dir -r requirements.txt && \
-    apk del gcc musl-dev
+    apk del build-base
 
 CMD [ "python", "main.py"]
