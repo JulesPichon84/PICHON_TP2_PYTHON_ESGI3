@@ -1,7 +1,7 @@
 # Importation du module Tkinter qui permet de créer une interface graphique
 # Importation du module PIL pour gérer les photos.
 # Importation du module pygame pour gérer les sons.
-import tkinter as tk
+from tkinter import *
 from PIL import Image, ImageTk
 from exo.exo1 import Calcul
 from exo.exo2_3 import CalculMoyenneMediane
@@ -11,7 +11,7 @@ import pygame
 
 
 def exo1():
-    root = tk.Tk()
+    root = Tk()
     root.title("Exercice Nombre Premier")   # Titre de la fenêtre.
     root.geometry('600x400')    # Taille de la fenêtre.
     calcul_obj = Calcul(root)   # Instancier l'objet Calcul.
@@ -19,7 +19,7 @@ def exo1():
 
 
 def exo2_3():
-    root = tk.Tk()
+    root = Tk()
     root.title("Exercice des calculs")   
     root.geometry('600x600')     
     calculatrice = CalculMoyenneMediane(root)   # Instancier l'objet Calcul.
@@ -27,7 +27,7 @@ def exo2_3():
 
 
 def exo4():
-    root = tk.Tk()
+    root = Tk()
     root.title("Exercice Analyse de données d'âge")     
     root.geometry('1000x1000')    
     Statistique = Age(root)     # Instancier l'objet Lanceur.
@@ -35,7 +35,7 @@ def exo4():
 
 
 def exo5():
-    root = tk.Tk()
+    root = Tk()
     root.title("Exercice Lanceur dés") 
     root.geometry('1000x1000')   
     Lanceur = LanceurDes(root)  # Instancier l'objet Lanceur.
@@ -43,9 +43,9 @@ def exo5():
 
 
 def creer_menu():
-    root = tk.Tk()
+    root = Tk()
     root.title("MENU PYTHON TP2 - Jules PICHON - ESGI3")
-    root.geometry('600x600')
+    root.geometry('1500x1500')
 
 
     # Redimensionne l'image de fond pour s'adapter à la taille de la fenêtre.
@@ -81,36 +81,31 @@ def creer_menu():
     
 
     # Création d'un label pour afficher l'image de fond
-    background_label = tk.Label(root, image=background_photo)
+    background_label = Label(root, image=background_photo)
     background_label.place(relwidth=1, relheight=1)
     background_label.photo = background_photo
 
 
     # Création d'un cadre (Frame) pour organiser le contenu.
-    frame = tk.Frame(root)
-    #frame.pack(expand=True)
-    frame.grid(row=0, column=0, sticky="nsew")  # "nsew" permet l'expansion dans toutes les directions
+    frame = Frame(root)
+    frame.grid(row=0, column=0, sticky="nsew")  # "nsew" permet l'expansion dans toutes les directions.
 
 
     # Création d'un label avec le texte centré.
-    label = tk.Label(frame, text="\nBienvenue dans le menu du TP2 consacré au langage de programmation Python !\nVoici la liste des exercices disponibles :\n", font=("Arial", 14))
+    label = Label(frame, text="\nBienvenue dans le menu du TP2 consacré au langage de programmation Python !\nVoici la liste des exercices disponibles :\n", font=("Arial", 14))
     label.grid(row=0, column=0, columnspan=5, pady=0)  # On ajoute un espace en haut et en bas.
 
 
     # Création d'un sous-cadre (Frame) pour les boutons et les centrer.
-    button_frame = tk.Frame(frame)
+    button_frame = Frame(frame)
     button_frame.grid(row=1, column=0, columnspan=5)
 
     
-    # Centrer le sous-cadre (Frame) des boutons.
-    button_frame.grid_columnconfigure(0, weight=1)  # Permet d'étirer la colonne.
-
-
     # Création d'un bouton pour chaque exercice et association d'un son et d'une image à un bouton.
-    btn1 = tk.Button(root, text="Un nombre 1er ?", command=lambda: (play_sound("Sounds/huh.mp3"), exo1()))
-    btn2 = tk.Button(root, text="Des calculs scientifiques", command=lambda: (play_sound("Sounds/bully.mp3"), exo2_3()))
-    btn3 = tk.Button(root, text="Etude sur l'âge de la population", command=lambda: (play_sound("Sounds/ez.mp3"), exo4()))
-    btn4 = tk.Button(root, text="Générateur de lancés de dés", command=lambda: (play_sound("Sounds/xp.mp3"), exo5()))
+    btn1 = Button(button_frame, text="Un nombre 1er ?", command=lambda: (play_sound("Sounds/huh.mp3"), exo1()))
+    btn2 = Button(button_frame, text="Des calculs scientifiques", command=lambda: (play_sound("Sounds/bully.mp3"), exo2_3()))
+    btn3 = Button(button_frame, text="Etude sur l'âge de la population", command=lambda: (play_sound("Sounds/ez.mp3"), exo4()))
+    btn4 = Button(button_frame, text="Générateur de lancés de dés", command=lambda: (play_sound("Sounds/xp.mp3"), exo5()))
 
 
     # On met les boutons sur la même ligne.
@@ -119,6 +114,9 @@ def creer_menu():
     btn3.grid(row=0, column=2, padx=10)
     btn4.grid(row=0, column=3, padx=10)
 
+
+    # Centrer le sous-cadre (Frame) des boutons.
+    button_frame.grid_columnconfigure(0, weight=1)  # Permet d'étirer la colonne.
 
     # On démarre la boucle d'évènements.
     root.mainloop()
