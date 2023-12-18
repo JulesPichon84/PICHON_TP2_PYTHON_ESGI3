@@ -78,6 +78,7 @@ Ce qui a été fait:
 - [X] Création d'une documentation pour l'utilisateur.
 
 Reste à faire:
+- [ ] Réaliser les tests unitaires.
 - [ ] Centrer le cadre contenant le titre et les boutons au centre de la fenêtre tkinter.
 - [ ] Création d'un Dokerfile en cours mais problème au moment d'exécuté le conteneur. Non prise en charge de tkinter de façon native.
 - [ ] Bonus: Ajouter une étape de sécurité avant de lancer le programme.
