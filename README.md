@@ -6,10 +6,11 @@
       |____|    |____|   \_______ \  |____|    / ______|  |____|  \___|_  /\_______  /\____|__  /
                                  \/            \/                       \/         \/         \/ 
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Lato&size=30&pause=1000&color=F70000&background=FFFFFF00&center=true&vCenter=true&multiline=true&random=false&height=100&lines=TP2+Python;Work+smarter%2C+not+harder)](https://git.io/typing-svg)
-
-![Static Badge](https://img.shields.io/badge/Version-1.0-brightgreen?style=for-the-badge&color=F907FF)
-![Static Badge](https://img.shields.io/badge/Python-3.11-brightgreen?style=for-the-badge&logo=Python&color=FF8C06)
+<div align="center">
+  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Lato&size=30&pause=1000&color=F70000&background=FFFFFF00&center=true&vCenter=true&multiline=true&random=false&height=100&lines=TP2+Python;Work+smarter%2C+not+harder)](https://git.io/typing-svg)
+  ![Static Badge](https://img.shields.io/badge/Version-1.0-brightgreen?style=for-the-badge&color=F907FF)
+  ![Static Badge](https://img.shields.io/badge/Python-3.11-brightgreen?style=for-the-badge&logo=Python&color=FF8C06)
+</div>
 
 # Bienvenue dans le TP2 consacré au langage de programmation Python
 
