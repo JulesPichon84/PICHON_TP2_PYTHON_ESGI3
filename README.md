@@ -8,6 +8,9 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Lato&size=30&pause=1000&color=F70000&background=FFFFFF00&center=true&vCenter=true&multiline=true&random=false&height=100&lines=TP2+Python;Work+smarter%2C+not+harder)](https://git.io/typing-svg)
 
+![Static Badge](https://img.shields.io/badge/Version-1.0-brightgreen?style=for-the-badge&color=F907FF)
+![Static Badge](https://img.shields.io/badge/Python-3.11-brightgreen?style=for-the-badge&logo=Python&color=FF8C06)
+
 # Bienvenue dans le TP2 consacré au langage de programmation Python
 
 ## Voici l'arborescence du dossier:
@@ -72,7 +75,7 @@ Volume horaire concernant le TP2:
 | Total | 16 |
 
 Ce qui a été fait:
-- [X] Les 5 scripts pour les 5 exercices.
+- [X] Les scripts pour les 5 exercices.
 - [X] Développement UI 
 - [X] Création des graphiques avec tracés de courbes.
 - [X] Création d'une documentation pour l'utilisateur.
