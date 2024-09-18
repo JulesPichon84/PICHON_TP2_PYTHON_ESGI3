@@ -52,13 +52,13 @@ def creer_menu():
     def resize_image(event):   
         new_width = event.width
         new_height = event.height
-        resized_image = background_image.resize((new_width, new_height), Image.ANTIALIAS)
+        resized_image = background_image.resize((new_width, new_height), Image.LANCZOS)
         new_image = ImageTk.PhotoImage(resized_image)
 
     
     # Charge l'image de fond
     background_image = Image.open("Images/background.jpg") 
-    background_image = background_image.resize((root.winfo_screenwidth(), root.winfo_screenheight()), Image.ANTIALIAS)
+    background_image = background_image.resize((root.winfo_screenwidth(), root.winfo_screenheight()), Image.LANCZOS)
     background_photo = ImageTk.PhotoImage(background_image)
 
 
